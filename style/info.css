@@ -1,0 +1,85 @@
+.info__section {
+    margin-top: 140px;
+    padding: 90px 0 247px;
+}
+
+.info {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 66px;
+}
+
+.info__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+    text-align: center;
+}
+
+.info__content-title {
+    max-width: 510px;
+}
+
+.info__content-descr {
+    max-width: 370px;
+    font-size: 17px;
+    color: var(--color-black);
+    opacity: .70;
+}
+
+.info__answers {
+    max-width: min(500px, 100%);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+
+    gap: 26px;
+}
+
+.info__answers-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+
+}
+
+.info__answer-card--text {
+    width: 237px;
+    font-size: 18px;
+    color: var(--color-blue);
+}
+
+.cards-first {
+    background: url(/assets/webp/info-1.svg) center/contain no-repeat;
+    width: 340px;
+    height: 112px;
+}
+
+.cards-second {
+    margin: 0 0 0 150px;
+    background: url(/assets/webp/info-2.svg) center/contain no-repeat;
+    width: 340px;
+    height: 112px;
+}
+
+.cards-third {
+    background: url(/assets/webp/info-3.svg) center/contain no-repeat;
+    width: 340px;
+    height: 112px;
+}
+
+.cards-fourth {
+    margin: 0 0 0 150px;
+    background: url(/assets/webp/info-4.svg) center/contain no-repeat;
+    width: 340px;
+    height: 112px;
+}

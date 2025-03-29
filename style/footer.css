@@ -1,0 +1,32 @@
+.footer__section{
+    padding: 48px 0 38px;
+    background-color: var(--color-white);
+}
+.footer{
+    display: flex;
+    justify-content: start;
+    gap: 50px;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 75px;
+}
+.footer__bottom-avords {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.avords__img {
+}
+.footer__bottom-apps {
+    display: flex;
+    gap: 75px;
+}
+.apps-link {
+}
+.apps-link-img {
+}

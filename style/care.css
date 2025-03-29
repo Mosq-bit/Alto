@@ -1,0 +1,25 @@
+.care__section{
+    margin-top: 60px;
+}
+
+.care {
+width: 100%;
+
+margin: 0 auto;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 98px;
+}
+.care__title {
+    max-width: min(550px, 100%);
+
+}
+.care__cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 59px;
+}

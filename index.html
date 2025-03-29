@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Alto</title>
+</head>
+
+<body>
+    <header class="header__section">
+        <div class="big__container">
+            <div class="header">
+
+                <div class="mobile__navigation">
+                    <!-- label подвязывается к input-->
+                    <label for="toggler-id">
+
+                        <svg class="mobile__nav-burger">
+                            <use href="/assets/webp/sprites.svg#miniburger-icon"></use>
+                        </svg>
+                    </label>
+                    <!-- если написать текст по будет чекаться chekbox -->
+                    <input class="mobile__navigation-toggler" type="checkbox" id="toggler-id">
+                    <nav class="mobile__menu">
+                        <ul class="mobile-list">
+                            <li>
+                                <a href="#Steps" class="mobile__link">Steps</a>
+                            </li>
+                            <li>
+                                <a href="#Storys" class="mobile__link ">Storys</a>
+                            </li>
+                            <li>
+                                <a href="#Care" class="mobile__link ">Care</a>
+                            </li>
+                            <li>
+                                <a href="#portfolio" class="mobile__link">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#contacts" class="mobile__link">Contacts</a>
+                            </li>
+                        </ul>
+                        <label for="toggler-id" class="mobile__nav-cross-close">
+                            <svg class="mobile__nav-cross">
+                                <use href="/assets/webp/sprites.svg#cross-icon"></use>
+                            </svg>
+                        </label>
+
+                    </nav>
+                </div>
+                <a href="#" class="logo">
+                    <svg class="logo-icon">
+                        <use href="/assets/webp/sprites.svg#logo-icon"></use>
+                    </svg>
+                </a>
+                <nav class="header__nav">
+                    <ul class="header_nav-list">
+                        <li>
+                            <a href="#" class="header__nav-link">For Providers</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header__nav-link">Sign In</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="promo__section">
+            <div class="container">
+                <div class="promo">
+                    <h1 class="promo__title">
+                        The neighborhood pharmacy that comes to you.
+                    </h1>
+                    <p class="promo__descr">
+                        We're your #1 rated pharmacy with free same-day delivery and extraordinary care.
+                    </p>
+                    <div class="buttom__wrapper">
+                        <button class="promo__btn btn">Transfer in seconds</button>
+                        <svg class="arrow-right-icon">
+                            <use href="/assets/webp/sprites.svg#arrow-right-icon"></use>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="steps__section" id="Steps">
+            <div class="container">
+                <div class="steps">
+                    <h2 class="steps__title title">
+                        Getting started is easy
+                    </h2>
+                    <div class="steps__cards">
+                        <div class="steps__card card">
+                            <img src="/assets/webp/steps__card-1.svg" alt="" class="steps__pic">
+                            <p class="steps__card-title card-title">Send in a prescription</p>
+                            <p class="steps__card-descr card-descr">Transfer your existing prescription or ask your
+                                doctor to send a new prescription to Alto.</p>
+                        </div>
+                        <div class="steps__card card">
+                            <img src="/assets/webp/steps__card-2.svg" alt="" class="steps__pic">
+                            <p class="steps__card-title card-title">See your savings</p>
+                            <p class="steps__card-descr card-descr">We'll search for savings on your medication and show
+                                you delivery options. We accept most major insurance plans.</p>
+                        </div>
+                        <div class="steps__card card">
+                            <img src="/assets/webp/steps__card-3.svg" alt="" class="steps__pic">
+                            <p class="steps__card-title card-title">Receive your delivery</p>
+                            <p class="steps__card-descr card-descr">You pick the day and time and we'll deliver it by
+                                hand, for free. No delivery or hidden fees.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="storys__section" id="Storys">
+            <div class="container">
+                <div class="storys">
+                    <div class="storys__video">
+                        <a href="#" class="storys__video-link">
+                            <img src="/assets/webp/storys__video.svg" alt="">
+                        </a>
+                        <div class="storys__button">
+                            <button class="storys__btn btn">Watch Lisa's story</button>
+                            <svg class="arrow-right-icon">
+                                <use href="/assets/webp/sprites.svg#arrow-right-icon"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="storys__info">
+                        <p class="storys__text">"It's been a life changer for me - how easy it is to use. I'll never go
+                            to a pharmacy again."</p>
+                        <p class="storys__descr">-Lisa, Alto customer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="care__section" id="Care">
+            <div class="container">
+                <div class="care">
+                    <h2 class="care__title title">
+                        The extraordinary care you deserve.
+                    </h2>
+                    <div class="care__cards">
+                        <div class="care__card card">
+                            <img src="/assets/webp/care__card-1.svg" alt="" class="care__pic">
+                            <p class="care__card-title card-title">Low prices</p>
+                            <p class="care__card-descr card-descr">We’ve saved our users more than $40 million on their
+                                medications.</p>
+                        </div>
+                        <div class="care__card card">
+                            <img src="/assets/webp/care__card-2.svg" alt="" class="care__pic">
+                            <p class="care__card-title card-title">Free same-day delivery</p>
+                            <p class="care__card-descr card-descr">Before work, in the evening, or right to your office.
+                                The same day, and it’s free.</p>
+                        </div>
+                        <div class="care__card card">
+                            <img src="/assets/webp/care__card-3.svg" alt="" class="care__pic">
+                            <p class="care__card-title card-title">Chat with a pharmacist</p>
+                            <p class="care__card-descr card-descr">Worried about side effects? Something else? Chat with
+                                a pharmacist anytime.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="info__section">
+            <div class="container">
+                <div class="info">
+                    <div class="info__content">
+                        <h2 class="info__content-title title">Ask your pharmacist, not the Internet.</h2>
+                        <p class="info__content-descr">Prescriptions can be tricky. Our pharmacists are just a chat,
+                            text, or phone call away.</p>
+                    </div>
+                    <div class="info__answers">
+                        <div class="info__answers-cards cards-first">
+                            <p class="info__answer-card--text">Is it okay to drink with these pills?</p>
+                        </div>
+                        <div class="info__answers-cards cards-second">
+                            <p class="info__answer-card--text">I have a headache, can I take Advil?</p>
+                        </div>
+                        <div class="info__answers-cards cards-third">
+                            <p class="info__answer-card--text">My medicine doesn’t seem to be working.</p>
+                        </div>
+                        <div class="info__answers-cards cards-fourth">
+                            <p class="info__answer-card--text">This acne medicine is upsetting my stomach.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="helper__section">
+            <div class="container">
+                <div class="helper">
+                    <h2 class="helper__title title">
+                        Give yourself access to exceptional care.
+                    </h2>
+                    <img src="/assets/webp/halper-pic.svg" alt="">
+                    <p class="helper__text">
+                        Emily's heart medication was going to $487 cost her, even with Medicare.
+                    </p>
+                    <p class="helper__text">
+                        We found her a coupon program that brought it down to $0, and we delivered it to her that night.
+                    </p>
+                    <img class="helper__pic" src="/assets/webp/halper-pic-2.svg" alt="">
+                </div>
+                <div class="helper__content">
+                    <div class="helper__content-img">
+                        <img src="/assets/webp/helper__pic-2.jpg" alt="">
+                    </div>
+                    <div class="helper__content-text">
+                        <p class="helper__content-descr">
+                            "I will never go back to another pharmacy again...Thank you for making our busy family's
+                            world much easier"
+                        </p>
+
+                        <div class="helper__content-button">
+                            <img class="helper__content-pic" src="/assets/webp/star.svg" alt="">
+                            <button class="helper__content-btn">Based on 913 reviews</button>
+                            <svg class="arrow-right-icon helper-button">
+                                <use href="/assets/webp/sprites.svg#arrow-right-icon"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="believe__section">
+            <div class="container">
+                <div class="believe">
+                    <h2 class="believe__title title">
+                        Believe in a better pharmacy.
+                    </h2>
+                    <div class="believe__button">
+                        <button class="believe__btn btn">Transfer in seconds</button>
+                        <svg class="arrow-right-icon">
+                            <use href="/assets/webp/sprites.svg#arrow-right-icon"></use>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacts__section">
+            <div class="container">
+                <div class="contacts">
+                    <a href="#" class="logo">
+                        <svg class="logo-icon">
+                            <use href="/assets/webp/sprites.svg#logo-icon"></use>
+                        </svg>
+                    </a>
+                    <div class="contacts__up">
+                        <nav class="contacts__nav">
+                            <ul class="contacts_nav-list">
+                                <li>
+                                    <a href="#" class="contacts__nav-link">Our Story</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="contacts__nav-link">Careers</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="contacts__nav-link">For Providers</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="contacts__nav-link">Customer Reviews</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="contacts__nav-link">FAQs</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="contacts__nav-link">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="contacts__nav-link">Locations</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="contacts__nav-link">Press</a>
+                                </li>
+                                <li>
+                                    <a class="contacts__nav-link" href="mailto:care@alto.com">care@alto.com</a>
+                                </li>
+                                <li>
+                                    <a class="contacts__nav-link" href="tel:+18008745881">1 (800) 874-5881</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="contacts__social">
+                            <a href="#" class="contacts__social-link">
+                                <img class="contacts__social-link--img" src="/assets/webp/instagram.svg" alt="">
+                            </a>
+                            <a href="#" class="contacts__social-link">
+                                <img class="contacts__social-link--img" src="/assets/webp/facebook.svg" alt="">
+                            </a>
+                            <a href="#" class="contacts__social-link">
+                                <img class="contacts__social-link--img" src="/assets/webp/twiter.svg" alt="">
+                            </a>
+                            <a href="#" class="contacts__social-link">
+                                <img class="contacts__social-link--img" src="/assets/webp/linkidin.svg" alt="">
+                            </a>
+                            <a href="#" class="contacts__social-link">
+                                <img class="contacts__social-link--img" src="/assets/webp/iq.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contacts__center">
+                        <div class="contacts__center-right">
+                            <p class="right-text">
+                                ©2020 Alto Pharmacy. All rights reserved.
+                            </p>
+                        </div>
+                        <div class="contacts__centr-private">
+                            <a href="" class="private-link">Privacy Policy</a>
+                            <a href="" class="private-link">Notice of Privacy Practices</a>
+                            <a href="" class="private-link">Terms and Conditions</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer__section">
+            <div class="container">
+                <div class="footer">
+                    <div class="footer__bottom-avords">
+                        <img src="/assets/webp/avords-1.svg" alt="" class="avords__img">
+                        <img src="/assets/webp/avords-2.svg" alt="" class="avords__img">
+                        <img src="/assets/webp/avords-3.svg" alt="" class="avords__img">
+                    </div>
+                    <div class="footer__bottom-apps">
+                        <a href="#" class="apps-link">
+                            <img src="/assets/webp/apps-1.svg" alt="" class="apps-link-img">
+                        </a>
+                        <a href="#" class="apps-link">
+                            <img src="/assets/webp/apps-2.svg" alt="" class="apps-link-img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
