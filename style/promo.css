@@ -1,6 +1,6 @@
 .promo__section{
     background-color: var(--color-beige);
-    background: url(/assets/webp/promo__bg.jpg) 0 275px/contain no-repeat; 
+    background: url(/Alto/assets/webp/promo__bg.jpg) 0 275px/contain no-repeat; 
 }
 .promo{
     padding: 200px 0 380px;
