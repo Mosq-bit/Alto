@@ -59,27 +59,27 @@
 }
 
 .cards-first {
-    background: url(/assets/webp/info-1.svg) center/contain no-repeat;
+    background: url(/Alto/assets/webp/info-1.svg) center/contain no-repeat;
     width: 340px;
     height: 112px;
 }
 
 .cards-second {
     margin: 0 0 0 150px;
-    background: url(/assets/webp/info-2.svg) center/contain no-repeat;
+    background: url(/Alto/assets/webp/info-2.svg) center/contain no-repeat;
     width: 340px;
     height: 112px;
 }
 
 .cards-third {
-    background: url(/assets/webp/info-3.svg) center/contain no-repeat;
+    background: url(/Alto/assets/webp/info-3.svg) center/contain no-repeat;
     width: 340px;
     height: 112px;
 }
 
 .cards-fourth {
     margin: 0 0 0 150px;
-    background: url(/assets/webp/info-4.svg) center/contain no-repeat;
+    background: url(/Alto/assets/webp/info-4.svg) center/contain no-repeat;
     width: 340px;
     height: 112px;
 }
